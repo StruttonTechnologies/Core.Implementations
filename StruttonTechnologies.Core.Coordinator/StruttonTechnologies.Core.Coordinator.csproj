@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>StruttonTechnologies.Core.Coordinator</PackageId>
+    <Title>Coordinator Layer for ST.Core</Title>
+    <Description>Dispatching and routing framework for StruttonTechnologies.Core.</Description>
+    <PackageTags>core; common; strutton; struttontechnologies; commands; queries; handlers; mediatr; cqrs</PackageTags>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="StruttonTechnologies.Core.Coordinator.Contracts" />
+    <PackageReference Include="StruttonTechnologies.Core.Repositories.Contracts" />
+    <PackageReference Include="StruttonTechnologies.Core.ToolKit.Validation" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StruttonTechnologies.Core.Orchestration\StruttonTechnologies.Core.Orchestration.csproj" />
+  </ItemGroup>
+</Project>

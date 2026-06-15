@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>StruttonTechnologies.Core.EntityFramework</PackageId>
+    <Title>Entity Framework Infrastructure for ST.Core</Title>
+    <Description>
+			Entity Framework extensions and base infrastructure for ST.Core — supports modular persistence
+			and repository patterns.
+		</Description>
+    <PackageTags>
+			core;entityframework;efcore;persistence;dbcontext;interceptors;data-access;architecture;strutton;struttontechnologies
+		</PackageTags>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" PrivateAssets="all" />
+    <PackageReference Include="StruttonTechnologies.Core.EF.Contracts" />
+    <PackageReference Include="StruttonTechnologies.Core.Identity.Domain" />
+    <PackageReference Include="StruttonTechnologies.Core.Identity.EF" />
+    <PackageReference Include="StruttonTechnologies.Core.ToolKit.Exceptions" />
+    <PackageReference Include="StruttonTechnologies.Core.Domain" />
+    <PackageReference Include="StruttonTechnologies.Core.Repositories.Contracts" />
+  </ItemGroup>
+</Project>

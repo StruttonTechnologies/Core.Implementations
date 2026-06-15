@@ -1,0 +1,30 @@
+﻿<Project>
+	<PropertyGroup>
+		
+		<!-- Target framework (can be overridden in .csproj) -->
+		<TargetFramework>net10.0</TargetFramework>
+
+		<!-- Enable modern C# features -->
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>preview</LangVersion>
+
+		<!-- Repository metadata -->
+		<RepositoryUrl>https://github.com/StruttonTechnologies/CoreCapabilities</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+		<!-- Build quality settings -->
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<Deterministic>true</Deterministic>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+
+		<!-- Default IsPackable to true (override with false in test projects) -->
+		<IsPackable Condition="'$(IsPackable)' == ''">true</IsPackable>
+		<IsPackable Condition="$(MSBuildProjectName.EndsWith('.Tests'))">false</IsPackable>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(IsPackable)' == 'true'">
+		<PackageReference Include="StruttonTechnologies.Assets.Branding"
+						  PrivateAssets="all" />
+	</ItemGroup>
+</Project>

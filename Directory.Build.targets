@@ -1,0 +1,11 @@
+<Project>
+	<!-- NuGet packaging configuration - only for packable projects -->
+	<PropertyGroup Condition="'$(IsPackable)' != 'false'">
+		<PackageOutputPath>G:\source\Packages</PackageOutputPath>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	</PropertyGroup>
+</Project>

@@ -1,0 +1,38 @@
+﻿<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="FluentAssertions" Version="8.10.0" />
+    <PackageVersion Include="MediatR" Version="14.1.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Abstractions" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.Extensions.Logging" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.9" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.6.0" />
+    <PackageVersion Include="Moq" Version="4.20.72" />
+    <PackageVersion Include="StruttonTechnologies.Assets.Branding" Version="1.0.0" />
+    <PackageVersion Include="StruttonTechnologies.Core.API" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Coordinator.Contracts" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Domain" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Dtos" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.EF" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.EF.Contracts" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Identity.API" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Identity.Composition" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Identity.Coordinator" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Identity.Domain" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Identity.EF" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Orchestration.Contracts" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.Repositories.Contracts" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.ToolKit.Exceptions" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.ToolKit.Registration" Version="1.0.0-alpha" />
+    <PackageVersion Include="StruttonTechnologies.Core.ToolKit.Validation" Version="1.0.0-alpha" />
+    <PackageVersion Include="coverlet.collector" Version="10.0.1" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+    <PackageVersion Include="xunit.v3" Version="3.2.2" />
+  </ItemGroup>
+</Project>

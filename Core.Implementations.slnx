@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/StruttonTechnologies.Core.Coordinator/">
+    <Project Path="StruttonTechnologies.Core.Coordinator/StruttonTechnologies.Core.Coordinator.csproj" />
+  </Folder>
+  <Folder Name="/StruttonTechnologies.Core.EntityFramework/">
+    <Project Path="StruttonTechnologies.Core.EntityFramework/StruttonTechnologies.Core.EntityFramework.csproj" />
+  </Folder>
+  <Folder Name="/StruttonTechnologies.Core.Orchestration/">
+    <Project Path="StruttonTechnologies.Core.Orchestration/StruttonTechnologies.Core.Orchestration.csproj" />
+  </Folder>
+  <Folder Name="/StruttonTechnologies.Core.Repositories/">
+    <Project Path="StruttonTechnologies.Core.Repositories/StruttonTechnologies.Core.Repositories.csproj" />
+  </Folder>
+  <Folder Name="/StruttonTechnologies.Core.Tests/">
+    <Project Path="StruttonTechnologies.Core.Tests/StruttonTechnologies.Core.Tests.csproj" />
+  </Folder>
+  <Project Path="StruttonTechnologies.Core.Composition/StruttonTechnologies.Core.Composition.csproj" />
+</Solution>

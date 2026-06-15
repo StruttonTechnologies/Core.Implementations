@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>StruttonTechnologies.Core.Composition</PackageId>
+    <Title>Strutton Technologies Core Composition</Title>
+    <Description>Single public dependency injection facade for registering Strutton Technologies Core services.</Description>
+    <PackageTags>core;strutton;struttontechnologies;composition;dependency-injection</PackageTags>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="StruttonTechnologies.Core.API" />
+    <PackageReference Include="StruttonTechnologies.Core.Identity.API" />
+    <PackageReference Include="StruttonTechnologies.Core.Identity.Composition" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StruttonTechnologies.Core.Coordinator\StruttonTechnologies.Core.Coordinator.csproj" />
+    <ProjectReference Include="..\StruttonTechnologies.Core.EntityFramework\StruttonTechnologies.Core.EntityFramework.csproj" />
+    <ProjectReference Include="..\StruttonTechnologies.Core.Orchestration\StruttonTechnologies.Core.Orchestration.csproj" />
+    <ProjectReference Include="..\StruttonTechnologies.Core.Repositories\StruttonTechnologies.Core.Repositories.csproj" />
+  </ItemGroup>
+</Project>
