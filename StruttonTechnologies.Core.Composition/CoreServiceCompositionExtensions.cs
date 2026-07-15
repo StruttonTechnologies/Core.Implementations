@@ -2,8 +2,10 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using StruttonTechnologies.Core.API.Extensions;
+using STCC.Core.API.Extensions;
+
 using StruttonTechnologies.Core.Coordinator;
+
 using StruttonTechnologies.Core.EF.Contracts;
 using StruttonTechnologies.Core.EntityFramework.Extensions;
 using StruttonTechnologies.Core.Identity.Composition;
